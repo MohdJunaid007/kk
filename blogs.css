@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 33, 33) !important; 
+    color: whitesmoke;
+
+ }
+.navs:hover{
+color: rgb(34, 212, 34) !important;
+}
+
+footer{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 42, 49);
+    color: white;
+  
+    text-align: center;
+
+    width: 100%;
+    height: 2.5rem;
+}

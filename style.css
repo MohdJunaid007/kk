@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 33, 33) !important; 
+    color: whitesmoke;
+
+ }
+.navs:hover{
+color: rgb(34, 212, 34) !important;
+}
+.centerss{
+    color: antiquewhite !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+.centerss:hover{
+    color: cornsilk;
+    font-size: 63px;
+}
+
+
+/* .vision{
+      color: rgb(160, 160, 160); 
+}  */
+.visioncard{
+    margin: 10px 10px 10px 10px;
+    color: black;
+}
+.visionimg{
+    width: auto;
+    height: auto;
+}
+.latestNews{
+     background-image: linear-gradient(to bottom right, rgb(92, 91, 89), rgb(51, 50, 47));
+    padding-bottom: 10px;
+    
+}
+.contactUs{
+    color: black;
+     /* background-image: linear-gradient(to bottom right, rgb(4, 76, 117), rgb(39, 40, 41));  */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+} 
+.buttoncontact{
+
+margin-top: 10px;
+background-color: rgb(0, 155, 147);
+
+width: 100%;
+
+}
+.buttoncontact:hover{
+    background-color: rgb(1, 173, 1);  
+}
+p{
+    margin: 0% 10px;
+}
+footer{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 42, 49);
+    color: white;
+}
+.moreDetail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+

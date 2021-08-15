@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+footer{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 42, 49);
+    color: white;
+}
+
+.navs:hover{
+    color: rgb(34, 212, 34) !important;
+    }
+
+    /* .aboutlogo{
+        
+    } */
+    .abouthead{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainImg{
+        width: 50%;
+ 
+        
+    }
+    body{
+        color: antiquewhite;
+        background-color: rgb(34, 33, 33);
+    }
+    .member{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+    .imagedp{
+        margin: 10px 10px;
+    }
+    .heading{
+        color: antiquewhite !important;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+    .heading:hover{
+        color: cornsilk;
+    font-size: 63px;
+    }
+    .animation{
+        background-image: linear-gradient(to bottom right, rgb(7, 238, 255), rgb(255, 255, 255));
+        color: black;
+        width: 70%;
+        border-radius: 30px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    .popImg{
+        width: 50px;
+        height: 50px;
+         margin: 10px auto -30px;
+        border: 3px solid antiquewhite;
+        position: relative;
+        top: -40px;
+        border-radius: 20px;
+    }
+
+    .animation {
+        animation-duration: 5s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 130%;
+          width: 400%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 70%;
+        }
+      }
